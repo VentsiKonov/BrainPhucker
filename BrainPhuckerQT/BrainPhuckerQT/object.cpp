@@ -13,3 +13,11 @@ Position Object :: getPosition() const{
 void Object :: setPosition(Position newCoords){
     coords = newCoords;
 }
+
+char Object :: getSymbol() const{
+    return symbol;
+}
+
+void Object :: setSymbol(char newSymbol){
+    symbol = newSymbol;
+}

@@ -12,4 +12,7 @@ public:
 
     Position getPosition() const;
     void setPosition(Position newCoords);
+
+    char getSymbol() const;
+    void setSymbol(char newSymbol);
 };
