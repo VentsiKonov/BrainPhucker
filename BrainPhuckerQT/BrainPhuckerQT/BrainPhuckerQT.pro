@@ -15,7 +15,9 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    object.cpp
 
 HEADERS += \
-    Position.h
+    object.h \
+    position.h
