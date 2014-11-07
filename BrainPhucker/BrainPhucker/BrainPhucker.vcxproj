@@ -76,10 +76,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Console\console.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Field.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Console\console.h" />
+    <ClInclude Include="Console\ConsoleColor.h" />
+    <ClInclude Include="Console\keys.h" />
     <ClInclude Include="Field.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
