@@ -6,6 +6,7 @@
 class Object
 {
     Position coords;
+    char symbol;
 public:
     Object();
 
