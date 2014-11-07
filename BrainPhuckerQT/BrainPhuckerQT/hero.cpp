@@ -1,5 +1,5 @@
 #include "hero.h"
 
-Hero::Hero()
-{
+Hero::Hero(){
+    score = 0;
 }
